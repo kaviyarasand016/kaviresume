@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="font/css/all.min.css">
+    
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+
+    }
+    body{
+        
+        font-family: 'Times New Roman', Times, serif;
+        }
+    .total{
+        display: flex;
+        
+    }
+    
+    .container{
+        border:1px black solid;
+        width: 50%;
+        height: 100%;
+        background-image: linear-gradient(red,blue);
+        
+    }
+    .container4{
+        width: 50%;
+        padding: 20px;
+        font-weight: bold;
+        background-image: linear-gradient(red,yellow);
+        
+    }
+
+    
+    .box1{
+        width: 100%;
+         padding-top:10px;
+         display:flex;
+         
+        justify-content: center;
+        
+    }
+    .box2{
+        margin-left: 20px;
+        margin-top: 60px;
+        color:black ;
+        font-weight: bold;
+        font-size: 30px;
+        justify-content:center;
+
+    }
+    .image{
+        border-radius: 50%;
+        }
+    
+    .box3{
+        margin-top: 40px;
+        font-size: 20px;
+        
+        font-weight: bold;
+        
+    }
+    .contact{
+        margin-left: 0px;
+
+    }
+
+    th,td{
+           border-right: 1px solid brown ; 
+           border-bottom: 1px solid brown;
+           text-align: center;
+           padding:15px 6px; 
+           
+       } 
+    
+    .table{
+        font-size: 23px;
+        margin-left:30px;
+        font-weight: bold;
+        border-collapse: collapse;
+        border: 1px solid brown;
+    }
+    
+    .education{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 20px;
+  
+    }
+    .education2{
+        color:black;
+        display: none;
+    }
+    
+    @media screen and (max-width:1168px){
+    .table{
+        font-size: 23px;
+        margin-left:30px;
+        font-weight: bold;
+        border-collapse: collapse;
+        border: 1px solid black;
+        display:none;
+    }
+    
+    .education2{
+        color: black;
+        margin-left: 70px;
+        display:block;
+        font-size: 13px;
+    }
+    .total{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container{
+        
+        width: 100%;
+        background-image: linear-gradient(blue,yellow);
+        
+    }
+    .container4{
+    
+        width: 100%;
+        background-image: linear-gradient(yellow,blue);
+        
+    }
+    }
+    
+    .skills{
+        font-size: 20px;
+       margin-left: 0px;
+        margin-top: -25px;
+        color: black;
+    }
+    .intrest{
+        font-size: 20px;
+        
+        margin: -15px;
+    }
+
+   
+</style>
+<body>
+
+<div class="total">
+    <div class="container">
+        <!--<img src="back.jpg" alt=" back">-->
+            
+            <div class="container1">
+                <div class="box1">
+                    
+                    <img class="image" style ="width: 150px; height: 200px;"src="photo.jpg">
+                    
+                </div>
+                <div class="box2">
+                    <span> Hi There! I'm Kaviyarasan</span><br><br>
+                    <span>Web Developer</span>
+                    <br><br><br>
+
+                </div>
+            </div>
+            <div class="container2">
+                <div class="box3">
+                    
+                <p style="font-size: 25px; padding-left: 20px;">Contact</p> <br>
+                    <div class="contact"><i class="fa fa-phone" style="font-size: 20px;padding-bottom:6px; margin-left: 40px; color: rgb(10, 185, 10);"></i> 9345297511<br>
+
+                    
+                    <i class="fa fa-envelope" style="font-size:20px;padding-bottom:6px; margin-left: 40px; color: blue; "></i>  kaviyarasand@gmail.com<br>
+
+                    <i class="fa fa-map-marker" style="font-size:20px;padding-bottom:6px; margin-left: 40px; color: red;"></i>    Srivaikuntam,India<br>
+                    </div>
+                    
+                </div>
+             </div>
+
+        <br>
+        <br>
+
+        <div class="container3">   
+            <br>
+            <span class="education" style="font-size: 25px;">Education</span><br><br>
+            
+            <br>
+            <table class="table">
+                <div class="year">
+                <tr>
+                    <th style="font-size: 22px;">Qualification</th>
+                    <th  style="font-size: 22px;">Insititution</th>
+                    <th  style="font-size: 22px;">Year Of Passing</th>
+                    <th >Marks/CGPA</th>
+                </div>
+                </tr>
+                
+                <tr>
+                    <td>B.E</td>
+                    <td>Dr.g.u.Pope College Of Engineering</td>
+                    <td>2022</td>
+                    <td>7.20</td>
+                </tr>
+                <tr>
+                    <td>HSS</td>
+                    <td>T.D.T.A Ranji Aaron Memorial Hr.Sec.School</td>
+                    <td>2018</td>
+                    <td>826</td>
+                </tr>
+                <tr>
+                    <td>SSLC</td>
+                    <td>T.D.T.A Ranji Aaron Memorial Hr.Sec.School</td>
+                    <td>2016</td>
+                    <td>424</td>
+                </tr>
+                
+            </table>
+        </div>
+            <div class="education2">
+                <h2>2018-2022 (B.E)</h2>
+                <h2>Dr.g.u.Pope College Of Engineering</h3>
+                <h2>CGPA : 7.20</p>  <br>
+                <h2>2017-2018 (HSS)</h2>
+                <h2>T.D.T.A Ranji Aaron Memorial Hr.Sec.School</h2>
+                <h2>Score : 69%</h2>  <br>
+                <h2>2015-2016 (SSLC)</h2>
+                <h2>T.D.T.A Ranji Aaron Memorial Hr.Sec.School</h2>
+                <h2>Score : 85%</h2>
+            </div>    
+                <br>
+    </div> 
+
+    <div class="container4">         
+            
+            <div class="skills" >
+                <br>
+                <p class="header" style="font-size: 25px;">Career Objective </p>
+                <br>
+                <p style=" margin-left: 60px; color: black;">I am willing to do hard work to prove my ability for the development of myself and the company</p>
+                <br>
+
+                <p class="header" style="font-size: 25px; ">Skills</p>
+                <br>
+                <ul style=" margin-left: 70px;">
+                    <li>AWS</li>
+                    <li>Jenkins</li>
+                    <li>Docker</li>
+                    <li>Ansible</li>
+                    <li>Promehtus granfana</li>
+                </ul>  
+                <br>
+                <p class="header" style="font-size: 25px;">Area of Intrest</p>
+                <br>
+                <ul style=" margin-left: 70px;">
+                    <li>AWS Cloud Engineer</li>
+                </ul> 
+                
+                <br>
+                <p class="header" style="font-size: 25px;">Project</p><br>
+                <p style=" margin-left: 60px;"><span>Tittle :</span>Snake Game Using in C++</p> 
+
+                <p style=" margin-left: 60px;"> We will create a snake game with the help of C++ and graphics functions.In this we will use the concept of c++ classes and computer graphics functions.</p>
+                <br>
+
+                <p class="header" style="font-size: 25px;">Personality </p>
+                <ul style=" margin-left: 70px;">
+                    <li>Dedication</li>
+                    <li>Empathetic</li>
+                    <li>Honerable</li>
+
+                </ul> 
+                <br>
+                <p class="header" style="font-size: 25px;">Co-Curricular</p><br>
+                <ul style=" margin-left: 70px;">
+                    <li>Successfully completed three days 'Machine Learing' internship</li>
+                    <li>Participated in 'Science and Technology'event conducted by 'National Engineering College' </li>
+                
+                <br>
+
+                <p class="header" style="font-size:25px;  margin-left: -60px;">Declaration</p><br>
+                <p style=" margin-left: 0px;">I here by declare that the above mentioned information is true to best of my knowledge and i bear the responsibility for the correctness of the above mentioned particulars </p>
+                
+            </div>
+            
+
+    </div>
+
+</div> 
+
+
+
+
+</body>
+</html>
